@@ -9,16 +9,17 @@ import Home from './pages/Home'
 
 function App() {
   return (
-    <div>
       <BrowserRouter>
         <Navbar />
+        <div className='container mt-5'>
         <Route exact path='/' component={Home}/>
         <Route path= '/Projects' component={Projects}/>
         <Route path= '/Skills' component={Skills} />
         <Route path= '/contact' component={Contact}/>
+        </div>
         
       </BrowserRouter>
-    </div>
+    
   );
 }
 
