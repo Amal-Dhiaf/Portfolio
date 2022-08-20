@@ -6,6 +6,7 @@ import Skills from './pages/Skills'
 import Contact from './pages/Contact'
 import Home from './pages/Home'
 import SkillDetails from './pages/SkillDetails'
+import NotFound from './pages/NotFound'
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
           <Route path='/skills/:id' component={SkillDetails} />
           <Route path='/Skills' component={Skills} />
           <Route path='/contact' component={Contact} />
+          <Route component={ NotFound}/>
         </Switch>
       </div>
 
