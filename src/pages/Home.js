@@ -5,8 +5,8 @@ function Home() {
   return (
     <div>
         <img src="/images/photo-1.jpg" alt="Profile photo" width="200px"/>
-        <p> Hello my name is Amal 
-        and I am a Web Developer</p>
+        <p> Hello my name is Amal </p> 
+        <p> and I am a Web Developer</p>
         
         <img src={devImage} alt="Web Image" width="40%" />
     </div>
